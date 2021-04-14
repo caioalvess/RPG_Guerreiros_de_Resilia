@@ -21,6 +21,6 @@ function escolhaDePersona() {
 
             }
         }
-    }, 1000)
+    }, 2000)
 
 }
