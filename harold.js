@@ -4,7 +4,7 @@ function Harold() {
     setTimeout(function () {
         escolha1 = alert("Clique em ok para avançar.");
         HaroldFase1()
-    }, 2000)
+    }, 300)
 }
 function HaroldFase1() {
     elem = document.querySelector('#pagFase');
@@ -15,12 +15,12 @@ function HaroldFase1() {
             elem = document.querySelector('#pagFase');
             elem.style.backgroundImage = "url('img/Harold_fase_1_vcmorreu.jpg')";
             setTimeout(function () {alert ("Você morreu!, Aperte ok para reinciar.");
-            location.reload();}, 2000)
+            location.reload();}, 300)
         }
         else if (escolha == 1) 
         
         HaroldFase2()
-    }, 2000)
+    }, 300)
 }
 function HaroldFase2() {
     elem = document.querySelector('#pagFase');
@@ -28,7 +28,7 @@ function HaroldFase2() {
     setTimeout(function () {
         escolha1 = alert("Clique em ok para avançar.");
         HaroldFase3()
-    }, 2000)
+    }, 300)
 }
 function HaroldFase3() {
     elem = document.querySelector('#pagFase');
@@ -39,12 +39,12 @@ function HaroldFase3() {
             elem = document.querySelector('#pagFase');
             elem.style.backgroundImage = "url('img/Harold_fase_2_pt1_vcmorreu.jpg')";
             setTimeout(function () {alert ("Você morreu!, Aperte ok para reinciar.");
-            location.reload();}, 2000)
+            location.reload();}, 300)
         }
         else if (escolha == 2) 
         
         HaroldFase33()
-    }, 2000)
+    }, 300)
 }
 function HaroldFase33() {
     elem = document.querySelector('#pagFase');
@@ -52,7 +52,7 @@ function HaroldFase33() {
     setTimeout(function () {
         escolha1 = alert("Clique em ok para avançar.");
         HaroldFase3Java()
-    }, 2000)
+    }, 300)
 }
 function HaroldFase3Java() {
     elem = document.querySelector('#pagFase');
@@ -63,12 +63,12 @@ function HaroldFase3Java() {
             elem = document.querySelector('#pagFase');
             elem.style.backgroundImage = "url('img/Harold_fase_3_java_vcmorreu.jpg')";
             setTimeout(function () {alert ("Você morreu!, Aperte ok para reinciar.");
-            location.reload();}, 2000)
+            location.reload();}, 300)
         }
         else if (escolha == 1) 
         
         HaroldFase3JavaFinal()
-    }, 2000)
+    }, 300)
 }
 function HaroldFase3JavaFinal() {
     elem = document.querySelector('#pagFase');
