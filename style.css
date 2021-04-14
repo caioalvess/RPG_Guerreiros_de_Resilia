@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    border: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+ #pagFase {
+    height: 100%;
+    width: 100%;
+    background: url(img/inicio.jpg);  
+    background-size: cover; 
+}
+#Start {
+    width: 200px;    
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: white;
+    padding-top: 3px;
+}
+.botao {
+    position: absolute;
+    bottom: 40px;
+    right: 585px;
+}
