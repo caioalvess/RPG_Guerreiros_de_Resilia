@@ -4,7 +4,7 @@ function Geralt() {
     setTimeout(function () {
         escolha1 = alert("Clique em ok para avançar.");
         GeraltFase1()
-    }, 300)
+    }, 600)
 }
 function GeraltFase1() {
     elem = document.querySelector('#pagFase');
@@ -15,12 +15,12 @@ function GeraltFase1() {
             elem = document.querySelector('#pagFase');
             elem.style.backgroundImage = "url('img/Geralt_fase_1_vcmorreu.jpg')";
             setTimeout(function () {alert ("Você morreu!, Aperte ok para reinciar.");
-            location.reload();}, 300)
+            location.reload();}, 600)
         }
         else if (escolha == 1) 
         
         GeraltFase2()
-    }, 300)
+    }, 600)
 }
 function GeraltFase2() {
     elem = document.querySelector('#pagFase');
@@ -31,12 +31,12 @@ function GeraltFase2() {
             elem = document.querySelector('#pagFase');
             elem.style.backgroundImage = "url('img/Geralt_fase_2_vcmorreu.jpg')";
             setTimeout(function () {alert ("Você morreu!, Aperte ok para reinciar.");
-            location.reload();}, 300)
+            location.reload();}, 600)
         }
         else if (escolha == 2) 
         
         GeraltFase3()
-    }, 300)
+    }, 600)
 }
 function GeraltFase3() {
     elem = document.querySelector('#pagFase');
@@ -44,7 +44,7 @@ function GeraltFase3() {
     setTimeout(function () {
         escolha1 = alert("Clique em ok para avançar.");
         GeraltFase3Java()
-    }, 300)
+    }, 600)
 }
 function GeraltFase3Java() {
     elem = document.querySelector('#pagFase');
@@ -55,12 +55,12 @@ function GeraltFase3Java() {
             elem = document.querySelector('#pagFase');
             elem.style.backgroundImage = "url('img/Geralt_fase_3_java_vcmorreu.jpg')";
             setTimeout(function () {alert ("Você morreu!, Aperte ok para reinciar.");
-            location.reload();}, 300)
+            location.reload();}, 600)
         }
         else if (escolha == 1) 
         
         GeraltFinalPt1()
-    }, 300)
+    }, 600)
 }
 function GeraltFinalPt1() {
     elem = document.querySelector('#pagFase');
@@ -68,7 +68,7 @@ function GeraltFinalPt1() {
     setTimeout(function () {
         escolha1 = alert("Clique em ok para avançar.");
         GeraltFinalPt2()
-    }, 300)
+    }, 600)
 }
 function GeraltFinalPt2() {
     elem = document.querySelector('#pagFase');
