@@ -8,7 +8,7 @@ function Geralt() {
 }
 function GeraltFase1() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('img/Geralt_fase_1.jpg')";
+    elem.style.backgroundImage = "url('img/Geral_fase_1.jpg')";
     setTimeout(function () {
         escolha = prompt("Escolha o seu caminho.");
         if (escolha == 2) {
